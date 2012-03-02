@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58B02C161501215D000A5AE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B02C151501215D000A5AE5 /* UIKit.framework */; };
+		58B02C181501215D000A5AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B02C171501215D000A5AE5 /* Foundation.framework */; };
+		58B02C1A1501215D000A5AE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B02C191501215D000A5AE5 /* CoreGraphics.framework */; };
+		58B02C201501215D000A5AE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B02C1E1501215D000A5AE5 /* InfoPlist.strings */; };
+		58B02C221501215D000A5AE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B02C211501215D000A5AE5 /* main.m */; };
+		58B02C261501215E000A5AE5 /* TSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B02C251501215E000A5AE5 /* TSOAppDelegate.m */; };
+		58B02C291501215E000A5AE5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B02C271501215E000A5AE5 /* MainStoryboard.storyboard */; };
+		58B02C2C1501215E000A5AE5 /* TSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B02C2B1501215E000A5AE5 /* TSOViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58B02C111501215D000A5AE5 /* TestForSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58B02C151501215D000A5AE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58B02C171501215D000A5AE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58B02C191501215D000A5AE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58B02C1D1501215D000A5AE5 /* TestForSO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestForSO-Info.plist"; sourceTree = "<group>"; };
+		58B02C1F1501215D000A5AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58B02C211501215D000A5AE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58B02C231501215D000A5AE5 /* TestForSO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestForSO-Prefix.pch"; sourceTree = "<group>"; };
+		58B02C241501215D000A5AE5 /* TSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSOAppDelegate.h; sourceTree = "<group>"; };
+		58B02C251501215E000A5AE5 /* TSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSOAppDelegate.m; sourceTree = "<group>"; };
+		58B02C281501215E000A5AE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		58B02C2A1501215E000A5AE5 /* TSOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSOViewController.h; sourceTree = "<group>"; };
+		58B02C2B1501215E000A5AE5 /* TSOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSOViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B02C0E1501215D000A5AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B02C161501215D000A5AE5 /* UIKit.framework in Frameworks */,
+				58B02C181501215D000A5AE5 /* Foundation.framework in Frameworks */,
+				58B02C1A1501215D000A5AE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58B02C061501215D000A5AE5 = {
+			isa = PBXGroup;
+			children = (
+				58B02C1B1501215D000A5AE5 /* TestForSO */,
+				58B02C141501215D000A5AE5 /* Frameworks */,
+				58B02C121501215D000A5AE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58B02C121501215D000A5AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58B02C111501215D000A5AE5 /* TestForSO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B02C141501215D000A5AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B02C151501215D000A5AE5 /* UIKit.framework */,
+				58B02C171501215D000A5AE5 /* Foundation.framework */,
+				58B02C191501215D000A5AE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B02C1B1501215D000A5AE5 /* TestForSO */ = {
+			isa = PBXGroup;
+			children = (
+				58B02C241501215D000A5AE5 /* TSOAppDelegate.h */,
+				58B02C251501215E000A5AE5 /* TSOAppDelegate.m */,
+				58B02C271501215E000A5AE5 /* MainStoryboard.storyboard */,
+				58B02C2A1501215E000A5AE5 /* TSOViewController.h */,
+				58B02C2B1501215E000A5AE5 /* TSOViewController.m */,
+				58B02C1C1501215D000A5AE5 /* Supporting Files */,
+			);
+			path = TestForSO;
+			sourceTree = "<group>";
+		};
+		58B02C1C1501215D000A5AE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58B02C1D1501215D000A5AE5 /* TestForSO-Info.plist */,
+				58B02C1E1501215D000A5AE5 /* InfoPlist.strings */,
+				58B02C211501215D000A5AE5 /* main.m */,
+				58B02C231501215D000A5AE5 /* TestForSO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B02C101501215D000A5AE5 /* TestForSO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B02C2F1501215E000A5AE5 /* Build configuration list for PBXNativeTarget "TestForSO" */;
+			buildPhases = (
+				58B02C0D1501215D000A5AE5 /* Sources */,
+				58B02C0E1501215D000A5AE5 /* Frameworks */,
+				58B02C0F1501215D000A5AE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestForSO;
+			productName = TestForSO;
+			productReference = 58B02C111501215D000A5AE5 /* TestForSO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B02C081501215D000A5AE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 58B02C0B1501215D000A5AE5 /* Build configuration list for PBXProject "TestForSO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B02C061501215D000A5AE5;
+			productRefGroup = 58B02C121501215D000A5AE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B02C101501215D000A5AE5 /* TestForSO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58B02C0F1501215D000A5AE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B02C201501215D000A5AE5 /* InfoPlist.strings in Resources */,
+				58B02C291501215E000A5AE5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B02C0D1501215D000A5AE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B02C221501215D000A5AE5 /* main.m in Sources */,
+				58B02C261501215E000A5AE5 /* TSOAppDelegate.m in Sources */,
+				58B02C2C1501215E000A5AE5 /* TSOViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58B02C1E1501215D000A5AE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B02C1F1501215D000A5AE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		58B02C271501215E000A5AE5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B02C281501215E000A5AE5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58B02C2D1501215E000A5AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B02C2E1501215E000A5AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B02C301501215E000A5AE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestForSO/TestForSO-Prefix.pch";
+				INFOPLIST_FILE = "TestForSO/TestForSO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58B02C311501215E000A5AE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestForSO/TestForSO-Prefix.pch";
+				INFOPLIST_FILE = "TestForSO/TestForSO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B02C0B1501215D000A5AE5 /* Build configuration list for PBXProject "TestForSO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B02C2D1501215E000A5AE5 /* Debug */,
+				58B02C2E1501215E000A5AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B02C2F1501215E000A5AE5 /* Build configuration list for PBXNativeTarget "TestForSO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B02C301501215E000A5AE5 /* Debug */,
+				58B02C311501215E000A5AE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B02C081501215D000A5AE5 /* Project object */;
+}
